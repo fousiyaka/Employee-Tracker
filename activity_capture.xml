@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps"
+    tools:context="com.example.itech.employeetracker.Capture">
+
+
+    <Button
+        android:id="@+id/notiButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/noti"
+        android:text="Notification" />
+
+    <Button
+        android:id="@+id/taskButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/notiButton"
+        android:layout_toRightOf="@+id/notiButton"
+        android:background="@drawable/task"
+        android:text="task" />
+
+    <Button
+        android:id="@+id/ApplyleaveButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/AttButton"
+        android:layout_toEndOf="@+id/AttButton"
+        android:layout_toRightOf="@+id/AttButton"
+        android:background="@drawable/leave"
+        android:text="Leave" />
+
+    <Button
+        android:id="@+id/rateButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/AttButton"
+        android:background="@drawable/rate2"
+        android:text="Rating" />
+
+    <Button
+        android:id="@+id/AttButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/notiButton"
+        android:background="@drawable/trackicon"
+        android:text="Attendance" />
+
+    <Button
+        android:id="@+id/salButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+
+        android:layout_below="@+id/ApplyleaveButton"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/rateButton"
+        android:layout_toRightOf="@+id/rateButton"
+        android:background="@drawable/sal"
+        android:text="Salary" />
+
+</RelativeLayout>
